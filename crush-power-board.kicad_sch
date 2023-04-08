@@ -1181,7 +1181,7 @@
     (stroke (width 0) (type default))
     (uuid 8e2384f0-3772-4f46-af6c-1a548d8ef886)
   )
-  (wire (pts (xy 38.1 138.43) (xy 38.1 132.08))
+  (wire (pts (xy 38.1 146.05) (xy 38.1 132.08))
     (stroke (width 0) (type default))
     (uuid 8e5d9713-40a3-4037-a4a5-0d33feaef849)
   )
@@ -1196,6 +1196,10 @@
   (wire (pts (xy 54.61 101.6) (xy 58.42 101.6))
     (stroke (width 0) (type default))
     (uuid 919e6075-5888-4510-8135-c21cafcd4bca)
+  )
+  (wire (pts (xy 199.39 59.69) (xy 180.34 59.69))
+    (stroke (width 0) (type default))
+    (uuid 96eb14f5-f2e1-475c-963d-4a64d8ac35b9)
   )
   (wire (pts (xy 248.92 83.82) (xy 262.89 83.82))
     (stroke (width 0) (type default))
@@ -1345,6 +1349,10 @@
     (stroke (width 0) (type default))
     (uuid f01e0c9c-0a2d-4dbe-aaf5-619fa9d3e309)
   )
+  (wire (pts (xy 180.34 59.69) (xy 180.34 64.77))
+    (stroke (width 0) (type default))
+    (uuid f071484d-ce13-40e7-b5f6-78f7301da174)
+  )
   (wire (pts (xy 228.6 72.39) (xy 228.6 76.2))
     (stroke (width 0) (type default))
     (uuid f0dc6de4-8ca8-4fcb-8b58-450437f9c479)
@@ -1382,7 +1390,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5153a0fc-ac13-4db2-b8e2-0322f53c339b)
   )
-  (text "note: the values on the SiC467 and IR3899 chip still need selecting\n"
+  (text "note: the values on the SiC467 and IR3899 chip still need selecting\n--I wrote those values down on a spread sheet in the drive\n\n"
     (at 170.18 128.27 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cc6a69f7-c42e-428b-8d52-12cb4d169b47)
@@ -1452,10 +1460,10 @@
   (symbol (lib_id "Device:C") (at 262.89 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 057c9ede-3c0d-40a5-b7e6-650a52245494)
-    (property "Reference" "C?" (at 266.7 90.1699 0)
+    (property "Reference" "Cout" (at 266.7 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 266.7 92.7099 0)
+    (property "Value" "2u" (at 266.7 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 263.8552 95.25 0)
@@ -1469,7 +1477,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Cout") (unit 1)
         )
       )
     )
@@ -1557,10 +1565,10 @@
   (symbol (lib_id "Device:C") (at 140.97 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b2bf2c6-78e9-44d1-9dfa-1e9313d0038a)
-    (property "Reference" "C?" (at 144.78 125.7299 0)
+    (property "Reference" "COHF" (at 144.78 126.365 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 144.78 128.2699 0)
+    (property "Value" "100n" (at 144.78 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 141.9352 130.81 0)
@@ -1574,7 +1582,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "COHF") (unit 1)
         )
       )
     )
@@ -1583,10 +1591,10 @@
   (symbol (lib_id "Device:C") (at 101.6 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f29a6f1-4a8a-42d6-803a-be956aa9382f)
-    (property "Reference" "C?" (at 105.41 124.46 0)
+    (property "Reference" "Co" (at 105.41 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 105.41 127 0)
+    (property "Value" "125n" (at 105.41 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 102.5652 129.54 0)
@@ -1600,7 +1608,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Co") (unit 1)
         )
       )
     )
@@ -1609,10 +1617,10 @@
   (symbol (lib_id "Device:C") (at 175.26 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11c4b0a3-0a79-4a16-99ee-a6b7cafe9e9b)
-    (property "Reference" "C?" (at 179.07 91.4399 0)
+    (property "Reference" "Css" (at 179.07 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 179.07 93.9799 0)
+    (property "Value" "10u" (at 179.07 94.615 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 176.2252 96.52 0)
@@ -1626,7 +1634,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Css") (unit 1)
         )
       )
     )
@@ -1635,10 +1643,10 @@
   (symbol (lib_id "Device:C") (at 36.83 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 159a6241-ac58-402b-ac09-270efce784e8)
-    (property "Reference" "C?" (at 40.64 110.4899 0)
+    (property "Reference" "Cvcc" (at 40.64 111.125 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 40.64 113.0299 0)
+    (property "Value" "10u" (at 40.64 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 37.7952 115.57 0)
@@ -1652,7 +1660,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Cvcc") (unit 1)
         )
       )
     )
@@ -1686,10 +1694,10 @@
   (symbol (lib_id "Device:R_US") (at 127 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19b66996-1f6f-4185-a72f-f493533518a2)
-    (property "Reference" "R?" (at 129.54 128.2699 0)
+    (property "Reference" "RFB1" (at 129.54 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_US" (at 129.54 130.8099 0)
+    (property "Value" "440k" (at 129.54 131.445 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 128.016 129.794 90)
@@ -1703,7 +1711,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "R?") (unit 1)
+          (reference "RFB1") (unit 1)
         )
       )
     )
@@ -1737,10 +1745,10 @@
   (symbol (lib_id "Device:C") (at 119.38 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f5d09eb-4311-42fe-bafc-b73ba1634a5f)
-    (property "Reference" "C?" (at 121.92 128.27 0)
+    (property "Reference" "Cff" (at 121.92 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 121.92 130.81 0)
+    (property "Value" "1u" (at 121.92 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 120.3452 133.35 0)
@@ -1754,7 +1762,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Cff") (unit 1)
         )
       )
     )
@@ -1763,10 +1771,10 @@
   (symbol (lib_id "Device:L") (at 92.71 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23bc1b07-8128-485a-9bda-3db14cce1d40)
-    (property "Reference" "L?" (at 92.71 123.19 90)
+    (property "Reference" "LIR" (at 92.71 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "L" (at 92.71 125.73 90)
+    (property "Value" "3u3" (at 92.71 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 92.71 121.92 0)
@@ -1780,7 +1788,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "L?") (unit 1)
+          (reference "LIR") (unit 1)
         )
       )
     )
@@ -1789,10 +1797,10 @@
   (symbol (lib_id "Device:R_US") (at 248.92 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 247395a5-d12b-4f46-aee1-873a05baa87c)
-    (property "Reference" "R?" (at 251.46 95.2499 0)
+    (property "Reference" "Rdown" (at 251.46 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_US" (at 251.46 97.7899 0)
+    (property "Value" "3k" (at 251.46 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 249.936 96.774 90)
@@ -1806,7 +1814,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "R?") (unit 1)
+          (reference "Rdown") (unit 1)
         )
       )
     )
@@ -1815,10 +1823,10 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 168.91 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2707f54f-49eb-482d-b414-26c75358f0d8)
-    (property "Reference" "C?" (at 152.4 67.31 0)
+    (property "Reference" "Cin" (at 160.02 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_Polarized_US" (at 152.4 69.85 0)
+    (property "Value" "5uF" (at 160.02 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 168.91 68.58 0)
@@ -1832,7 +1840,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Cin") (unit 1)
         )
       )
     )
@@ -1866,10 +1874,10 @@
   (symbol (lib_id "Device:R_US") (at 127 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f531496-462c-4c08-969d-0061c9bbf4ac)
-    (property "Reference" "R?" (at 129.54 138.4299 0)
+    (property "Reference" "RFB2" (at 129.54 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_US" (at 129.54 140.9699 0)
+    (property "Value" "60k" (at 129.54 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 128.016 139.954 90)
@@ -1883,7 +1891,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "R?") (unit 1)
+          (reference "RFB2") (unit 1)
         )
       )
     )
@@ -1943,10 +1951,10 @@
   (symbol (lib_id "Device:L") (at 238.76 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43d539b6-2555-441c-91ad-9bde02c0dfb8)
-    (property "Reference" "L?" (at 238.76 66.04 90)
+    (property "Reference" "LSIC" (at 238.76 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "L" (at 238.76 68.58 90)
+    (property "Value" "3u3" (at 238.76 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 238.76 72.39 0)
@@ -1960,7 +1968,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "L?") (unit 1)
+          (reference "LSIC") (unit 1)
         )
       )
     )
@@ -2019,10 +2027,10 @@
   (symbol (lib_id "Device:C") (at 233.68 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c7d0db8-99e1-48fb-85d8-ebfe25979678)
-    (property "Reference" "C?" (at 237.49 59.6899 0)
+    (property "Reference" "Cboot" (at 237.49 60.325 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 237.49 62.2299 0)
+    (property "Value" "100n" (at 237.49 62.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 234.6452 64.77 0)
@@ -2036,7 +2044,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Cboot") (unit 1)
         )
       )
     )
@@ -2045,10 +2053,10 @@
   (symbol (lib_id "Device:R_US") (at 198.12 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f248058-e3d9-4307-ae89-1b897ac69bfc)
-    (property "Reference" "R?" (at 200.66 107.9499 0)
+    (property "Reference" "Rfsw" (at 200.66 108.585 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_US" (at 200.66 110.4899 0)
+    (property "Value" "80k" (at 200.66 111.125 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 199.136 109.474 90)
@@ -2062,7 +2070,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "R?") (unit 1)
+          (reference "Rfsw") (unit 1)
         )
       )
     )
@@ -2238,10 +2246,10 @@
   (symbol (lib_id "Device:C") (at 87.63 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f7daeb3-88ee-4e61-a349-854f51c3f6fa)
-    (property "Reference" "C?" (at 91.44 92.7099 0)
+    (property "Reference" "Cin" (at 91.44 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 91.44 95.2499 0)
+    (property "Value" "5u" (at 91.44 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 88.5952 97.79 0)
@@ -2255,7 +2263,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Cin") (unit 1)
         )
       )
     )
@@ -2289,10 +2297,10 @@
   (symbol (lib_id "Device:C") (at 81.28 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8db53911-8ecf-4f20-a742-45b32bf8f809)
-    (property "Reference" "C?" (at 85.09 116.8399 0)
+    (property "Reference" "Cboot" (at 85.09 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 85.09 119.3799 0)
+    (property "Value" "100n" (at 85.09 120.015 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 82.2452 121.92 0)
@@ -2306,7 +2314,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Cboot") (unit 1)
         )
       )
     )
@@ -2340,10 +2348,10 @@
   (symbol (lib_id "Device:R_US") (at 30.48 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90949b1f-6500-44a0-8d43-6e417e5a01ba)
-    (property "Reference" "R?" (at 22.86 110.49 0)
+    (property "Reference" "Rpg" (at 22.86 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_US" (at 22.86 113.03 0)
+    (property "Value" "49k9" (at 22.86 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 31.496 112.014 90)
@@ -2357,7 +2365,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "R?") (unit 1)
+          (reference "Rpg") (unit 1)
         )
       )
     )
@@ -2417,10 +2425,10 @@
   (symbol (lib_id "Device:R_US") (at 248.92 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a104e449-6bb1-49ef-a31a-2339ed514a29)
-    (property "Reference" "R?" (at 251.46 87.6299 0)
+    (property "Reference" "Rup" (at 251.46 88.265 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_US" (at 251.46 90.1699 0)
+    (property "Value" "42k" (at 251.46 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 249.936 89.154 90)
@@ -2434,7 +2442,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "R?") (unit 1)
+          (reference "Rup") (unit 1)
         )
       )
     )
@@ -2612,10 +2620,10 @@
   (symbol (lib_id "Device:C") (at 45.72 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9d3a830-084c-434e-8345-d45846a0f833)
-    (property "Reference" "C?" (at 49.53 95.2499 0)
+    (property "Reference" "Cvin" (at 49.53 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 49.53 97.7899 0)
+    (property "Value" "4u7" (at 49.53 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 46.6852 100.33 0)
@@ -2629,7 +2637,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "C?") (unit 1)
+          (reference "Cvin") (unit 1)
         )
       )
     )
@@ -2688,10 +2696,10 @@
   (symbol (lib_id "Device:R_US") (at 182.88 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1b67d09-e01b-400f-a96e-449d13893bd7)
-    (property "Reference" "R?" (at 185.42 104.1399 0)
+    (property "Reference" "Rmode" (at 185.42 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_US" (at 185.42 106.6799 0)
+    (property "Value" "1k" (at 185.42 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 183.896 105.664 90)
@@ -2705,7 +2713,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "R?") (unit 1)
+          (reference "Rmode") (unit 1)
         )
       )
     )
@@ -2731,32 +2739,6 @@
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
           (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 38.1 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e657c0d6-da89-4378-af91-586d83892992)
-    (property "Reference" "R?" (at 31.75 140.97 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "R_US" (at 31.75 143.51 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 39.116 142.494 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 38.1 142.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 151eae83-0819-4b10-acd1-da73df378690))
-    (pin "2" (uuid d24795c1-3065-43df-8cb5-e5dec892842d))
-    (instances
-      (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "R?") (unit 1)
         )
       )
     )
