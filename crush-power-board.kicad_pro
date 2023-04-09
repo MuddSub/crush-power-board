@@ -244,7 +244,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "crush-power-lib"
+    ]
   },
   "meta": {
     "filename": "crush-power-board.kicad_pro",
@@ -336,6 +338,18 @@
     [
       "530b9f5d-4c5f-47a4-a889-3cce870d311f",
       ""
+    ],
+    [
+      "5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053",
+      "3.3V Regulator"
+    ],
+    [
+      "8fa80497-01bc-4617-b4f1-76ea41313a51",
+      "12V Regulator"
+    ],
+    [
+      "66b48989-026d-4927-b86c-76e19138a6ff",
+      "5V Regulator"
     ]
   ],
   "text_variables": {}
