@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "crush-power-footprints")(type "KiCad")(uri "${KIPRJMOD}/library/crush-power-footprints.pretty")(options "")(descr ""))
+)

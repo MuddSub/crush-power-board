@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "crush-power-lib")(type "KiCad")(uri "${KIPRJMOD}/library/crush-power-lib.kicad_sym")(options "")(descr ""))
+  (lib (name "max16904")(type "KiCad")(uri "${KIPRJMOD}/library/max16904.kicad_sym")(options "")(descr ""))
+  (lib (name "sic46x")(type "KiCad")(uri "${KIPRJMOD}/library/sic46x.kicad_sym")(options "")(descr ""))
+  (lib (name "ir3899a")(type "KiCad")(uri "${KIPRJMOD}/library/ir3899a.kicad_sym")(options "")(descr ""))
+)
