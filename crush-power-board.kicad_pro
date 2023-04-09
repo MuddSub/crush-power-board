@@ -350,6 +350,10 @@
     [
       "66b48989-026d-4927-b86c-76e19138a6ff",
       "5V Regulator"
+    ],
+    [
+      "eea42af5-9968-489d-9acf-9145a737deb9",
+      "3.3V Regulator Thruster Side"
     ]
   ],
   "text_variables": {}
