@@ -599,10 +599,10 @@
   )
 
   (symbol (lib_id "Device:C") (at 158.75 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 0eb444de-3d5a-4d45-986b-6ee6bcf4f860)
     (property "Reference" "Cboot" (at 162.56 86.995 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left top))
     )
     (property "Value" "100n" (at 162.56 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -621,7 +621,7 @@
           (reference "Cboot") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "Cboot2") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -650,7 +650,7 @@
           (reference "Cff") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "Cff1") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -679,7 +679,7 @@
           (reference "Cin") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "Cin2") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -737,7 +737,7 @@
           (reference "Cvin") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "Cvin1") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -810,7 +810,7 @@
           (reference "RFB1") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "RFB1") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -839,7 +839,7 @@
           (reference "RFB2") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "RFB2") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -868,7 +868,7 @@
           (reference "Co") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "Co1") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -897,7 +897,7 @@
           (reference "Cvcc") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "Cvcc1") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -926,7 +926,7 @@
           (reference "LIR") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "LIR1") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -955,7 +955,7 @@
           (reference "COHF") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "COHF1") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -984,7 +984,7 @@
           (reference "Rpg") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/66b48989-026d-4927-b86c-76e19138a6ff"
-          (reference "Rpg1") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
