@@ -695,7 +695,7 @@
     (property "Value" "RB095BGE-90TL" (at 149.86 94.2975 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 147.32 92.71 0)
+    (property "Footprint" "crush-power-footprints:DIO_RR601BM4_ROM-L" (at 147.32 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 92.71 0)
