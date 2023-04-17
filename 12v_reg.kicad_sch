@@ -954,7 +954,7 @@
   (symbol (lib_id "Device:R_US") (at 154.94 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13b3035b-2e3e-4b90-9d40-d8e241f78059)
-    (property "Reference" "R2" (at 157.48 53.975 0)
+    (property "Reference" "R11" (at 157.48 53.975 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1R" (at 157.48 56.515 0)
@@ -971,7 +971,7 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "R2") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1029,7 +1029,7 @@
           (reference "Cout") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "Cout1") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1058,7 +1058,7 @@
           (reference "Cout") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "C17") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1087,7 +1087,7 @@
           (reference "Cout") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "C11") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1116,7 +1116,7 @@
           (reference "Cboot") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "C12") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1145,7 +1145,7 @@
           (reference "Cout") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "C10") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1174,7 +1174,7 @@
           (reference "Rmode") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "R11") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1203,7 +1203,7 @@
           (reference "Css") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "C2") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1260,7 +1260,7 @@
           (reference "U2") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1289,7 +1289,7 @@
           (reference "Rmode") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "R12") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1318,7 +1318,7 @@
           (reference "Rdown") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -1347,7 +1347,7 @@
           (reference "Cout") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "Cout2") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1376,7 +1376,7 @@
           (reference "Cin") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "C1") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1405,7 +1405,7 @@
           (reference "Rmode") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1434,7 +1434,7 @@
           (reference "Rdown") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "R13") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1463,7 +1463,7 @@
           (reference "Rmode") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "R3") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1492,7 +1492,7 @@
           (reference "LSIC") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "L1") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -1521,7 +1521,7 @@
           (reference "Rup") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "R14") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1550,7 +1550,7 @@
           (reference "Css") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "C3") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1579,7 +1579,7 @@
           (reference "Css") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
-          (reference "C4") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )

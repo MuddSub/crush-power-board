@@ -544,7 +544,7 @@
   (symbol (lib_id "Device:C") (at 149.86 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17e1a56c-67c4-4b31-9b4c-41b9f9ed82be)
-    (property "Reference" "C6" (at 153.67 111.125 0)
+    (property "Reference" "C3" (at 153.67 111.125 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 153.67 113.665 0)
@@ -561,10 +561,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "C15") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -573,7 +573,7 @@
   (symbol (lib_id "Device:C") (at 143.51 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f6144a5-bc20-4b3e-9fd3-4bfd5366822e)
-    (property "Reference" "C8" (at 143.51 73.66 90)
+    (property "Reference" "C2" (at 143.51 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0u1" (at 143.51 76.2 90)
@@ -590,10 +590,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "C8") (unit 1)
+          (reference "C2") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "C14") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -602,7 +602,7 @@
   (symbol (lib_id "Device:R_US") (at 106.68 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fc393b5-cca1-4095-811f-4084b0d3dba5)
-    (property "Reference" "R5" (at 109.22 102.235 0)
+    (property "Reference" "R2" (at 109.22 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 109.22 104.775 0)
@@ -619,10 +619,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "R5") (unit 1)
+          (reference "R2") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "R17") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -631,7 +631,7 @@
   (symbol (lib_id "Device:C") (at 196.85 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40e4008a-46ca-46e8-a241-89cc1638aa09)
-    (property "Reference" "C7" (at 200.66 99.695 0)
+    (property "Reference" "C4" (at 200.66 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 200.66 102.235 0)
@@ -648,10 +648,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "C7") (unit 1)
+          (reference "C4") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "C16") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -660,7 +660,7 @@
   (symbol (lib_id "Device:C") (at 92.71 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 473d464c-698e-408d-a203-4ead66b0f0e5)
-    (property "Reference" "C5" (at 96.52 99.695 0)
+    (property "Reference" "C1" (at 96.52 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 96.52 102.235 0)
@@ -677,10 +677,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "C5") (unit 1)
+          (reference "C1") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "C13") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -718,7 +718,7 @@
   (symbol (lib_id "Device:R_US") (at 130.81 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 559647aa-de2f-4643-926b-a9e9303f6300)
-    (property "Reference" "R9" (at 133.35 122.555 0)
+    (property "Reference" "R3" (at 133.35 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 133.35 125.095 0)
@@ -735,10 +735,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "R9") (unit 1)
+          (reference "R3") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "R18") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -747,7 +747,7 @@
   (symbol (lib_id "Device:R_US") (at 180.34 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84a06298-9b4e-482f-8892-e60a004a1d73)
-    (property "Reference" "R7" (at 182.88 94.615 0)
+    (property "Reference" "R5" (at 182.88 94.615 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k3" (at 182.88 97.155 0)
@@ -764,10 +764,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "R7") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "R20") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -776,7 +776,7 @@
   (symbol (lib_id "crush-power-lib:BD9G341AEFJ") (at 130.81 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89a17734-1117-4971-8bc9-0e5c24652000)
-    (property "Reference" "U4" (at 119.38 80.01 0)
+    (property "Reference" "U1" (at 119.38 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BD9G341AEFJ" (at 119.38 82.55 0)
@@ -799,10 +799,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -811,7 +811,7 @@
   (symbol (lib_id "Device:L") (at 161.29 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90354992-64f3-4f1e-82d5-9c379967b99f)
-    (property "Reference" "L2" (at 161.29 83.82 90)
+    (property "Reference" "L1" (at 161.29 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33u" (at 161.29 86.36 90)
@@ -828,10 +828,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "L2") (unit 1)
+          (reference "L1") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "L3") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -840,7 +840,7 @@
   (symbol (lib_id "Device:R_US") (at 106.68 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bee90169-be9c-4c7b-b5c2-da3ab1bb13bc)
-    (property "Reference" "R4" (at 109.22 93.345 0)
+    (property "Reference" "R1" (at 109.22 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k" (at 109.22 95.885 0)
@@ -857,10 +857,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "R4") (unit 1)
+          (reference "R1") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "R16") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -869,7 +869,7 @@
   (symbol (lib_id "Device:R_US") (at 149.86 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c43e2ece-63ab-4f65-9a2c-3d8bb07992da)
-    (property "Reference" "R6" (at 152.4 121.285 0)
+    (property "Reference" "R4" (at 152.4 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6k2" (at 152.4 123.825 0)
@@ -886,10 +886,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "R6") (unit 1)
+          (reference "R4") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "R19") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -898,10 +898,10 @@
   (symbol (lib_id "Device:R_US") (at 180.34 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e878a48d-3dae-4bf1-a878-3c4e3e4be741)
-    (property "Reference" "R8" (at 182.88 104.775 0)
+    (property "Reference" "R6" (at 182.88 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "560" (at 182.88 107.315 0)
+    (property "Value" "560R" (at 182.88 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 181.356 105.664 90)
@@ -915,10 +915,10 @@
     (instances
       (project "crush-power-board"
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/5ebfd0d2-e05a-44c8-bc6b-7dbf219b0053"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/eea42af5-9968-489d-9acf-9145a737deb9"
-          (reference "R21") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
