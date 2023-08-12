@@ -31,3 +31,6 @@ fp-info-cache
 
 # Routing replication plugin
 *.log
+
+# Computer ID files
+*.lck
