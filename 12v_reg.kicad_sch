@@ -1193,7 +1193,7 @@
   (symbol (lib_id "Device:C") (at 238.76 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 262d43ae-4009-4a77-abe5-a69470d7ce78)
-    (property "Reference" "Cout" (at 242.57 92.075 0)
+    (property "Reference" "C21" (at 242.57 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 242.57 94.615 0)
@@ -1209,9 +1209,6 @@
     (pin "2" (uuid c8cae21b-66d0-4c4e-b9fb-df94662fe442))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C21") (unit 1)
         )
@@ -1222,7 +1219,7 @@
   (symbol (lib_id "Device:C") (at 97.79 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a8640e0-7f2c-4b52-9600-26d3bbfcdec1)
-    (property "Reference" "Css" (at 99.06 113.03 0)
+    (property "Reference" "C10" (at 99.06 113.03 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33n" (at 99.06 115.57 0)
@@ -1238,9 +1235,6 @@
     (pin "2" (uuid 9877f353-fe6f-4c56-8d50-15f8e6cb1348))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Css") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C10") (unit 1)
         )
@@ -1251,7 +1245,7 @@
   (symbol (lib_id "Device:C") (at 198.12 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cae11e1-4665-44cd-ad19-83b095cc0394)
-    (property "Reference" "Cout" (at 201.93 92.075 0)
+    (property "Reference" "C17" (at 201.93 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 201.93 94.615 0)
@@ -1267,9 +1261,6 @@
     (pin "2" (uuid fdd73c05-d106-4639-b6ef-0331a2fdce0d))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C17") (unit 1)
         )
@@ -1280,7 +1271,7 @@
   (symbol (lib_id "Device:C") (at 146.05 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43bb1c1f-c200-46bf-9c3b-fe4896021d0a)
-    (property "Reference" "Cout" (at 149.86 90.17 90)
+    (property "Reference" "C12" (at 149.86 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3u9" (at 149.86 92.71 90)
@@ -1296,9 +1287,6 @@
     (pin "2" (uuid d3684766-4f01-4efa-bf27-6bea12715471))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C12") (unit 1)
         )
@@ -1309,7 +1297,7 @@
   (symbol (lib_id "Device:C") (at 218.44 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46aad05e-f95e-4da2-83ac-b4af03bea844)
-    (property "Reference" "Cout" (at 222.25 92.075 0)
+    (property "Reference" "C19" (at 222.25 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 222.25 94.615 0)
@@ -1325,9 +1313,6 @@
     (pin "2" (uuid b307146a-ea36-4f43-96c5-a1c8aab1bc2b))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C19") (unit 1)
         )
@@ -1338,7 +1323,7 @@
   (symbol (lib_id "Device:C") (at 187.96 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f210ac9-bbf1-46fb-916c-b8ba83b2f8a4)
-    (property "Reference" "Cout" (at 191.77 92.075 0)
+    (property "Reference" "C16" (at 191.77 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 191.77 94.615 0)
@@ -1354,9 +1339,6 @@
     (pin "2" (uuid bce8c10c-6eac-4b0d-aac6-1a47ac833b36))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C16") (unit 1)
         )
@@ -1367,7 +1349,7 @@
   (symbol (lib_id "Device:C") (at 134.62 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 582c4767-ff00-4b04-b095-954893a92f10)
-    (property "Reference" "Cboot" (at 134.62 48.26 90)
+    (property "Reference" "C11" (at 134.62 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 134.62 50.8 90)
@@ -1383,9 +1365,6 @@
     (pin "2" (uuid 5ff10859-0961-416a-ad07-45c1cdbeac5c))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cboot") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C11") (unit 1)
         )
@@ -1422,7 +1401,7 @@
   (symbol (lib_id "Device:C") (at 175.26 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 605f6937-dc5a-4948-9df6-3ef47b758c3d)
-    (property "Reference" "Cout" (at 179.07 92.075 0)
+    (property "Reference" "C15" (at 179.07 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 179.07 94.615 0)
@@ -1438,9 +1417,6 @@
     (pin "2" (uuid c40d7bbc-c151-4ead-8c47-47ba99f37ca8))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C15") (unit 1)
         )
@@ -1451,7 +1427,7 @@
   (symbol (lib_id "Device:R_US") (at 80.01 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62918fd9-a3cb-4c84-83e0-b8568b282603)
-    (property "Reference" "Rmode" (at 80.01 73.66 90)
+    (property "Reference" "R13" (at 80.01 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 80.01 76.2 90)
@@ -1467,9 +1443,6 @@
     (pin "2" (uuid b9270d12-8103-4c2d-994a-7d155be31758))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Rmode") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "R13") (unit 1)
         )
@@ -1480,7 +1453,7 @@
   (symbol (lib_id "Device:C") (at 31.75 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 631875f6-7403-4b7e-96c7-85fbc983ebe1)
-    (property "Reference" "Css" (at 35.56 88.265 0)
+    (property "Reference" "C6" (at 35.56 88.265 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4u7" (at 35.56 90.805 0)
@@ -1496,9 +1469,6 @@
     (pin "2" (uuid 53553ef0-8f69-4b70-a497-f16ceeac6dfa))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Css") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C6") (unit 1)
         )
@@ -1509,7 +1479,7 @@
   (symbol (lib_id "Device:C") (at 151.13 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a5825d4-099d-4f44-b824-7e8a2e281d6c)
-    (property "Reference" "Cout" (at 154.94 106.045 0)
+    (property "Reference" "C13" (at 154.94 106.045 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n2" (at 154.94 108.585 0)
@@ -1525,9 +1495,6 @@
     (pin "2" (uuid 4dd9581e-8516-421c-95a8-a90015396d61))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C13") (unit 1)
         )
@@ -1538,7 +1505,7 @@
   (symbol (lib_id "Device:C") (at 228.6 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6efc52ef-4f56-4ab7-bbcc-bc64e951b1aa)
-    (property "Reference" "Cout" (at 232.41 92.075 0)
+    (property "Reference" "C20" (at 232.41 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 232.41 94.615 0)
@@ -1554,9 +1521,6 @@
     (pin "2" (uuid 2069881d-0a28-40d5-a114-d2227e115844))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C20") (unit 1)
         )
@@ -1567,7 +1531,7 @@
   (symbol (lib_id "Device:C") (at 157.48 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76e9fdfe-18b0-47d8-97fc-5ba66a39b075)
-    (property "Reference" "Cout" (at 157.48 77.47 90)
+    (property "Reference" "C14" (at 157.48 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 157.48 80.01 90)
@@ -1583,9 +1547,6 @@
     (pin "2" (uuid b3863510-5cb1-48e3-857b-1d6f70022906))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C14") (unit 1)
         )
@@ -1596,7 +1557,7 @@
   (symbol (lib_id "Device:R_US") (at 90.17 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89992bd0-1552-4668-84fa-2622f8dd55cd)
-    (property "Reference" "Rmode" (at 92.71 104.775 0)
+    (property "Reference" "R15" (at 92.71 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75k" (at 92.71 107.315 0)
@@ -1612,9 +1573,6 @@
     (pin "2" (uuid 191b40c0-798a-4a6b-80fb-15a276594a62))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Rmode") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "R15") (unit 1)
         )
@@ -1625,7 +1583,7 @@
   (symbol (lib_id "Device:C") (at 43.18 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f501059-10fa-48e5-b205-e5ed5334b0df)
-    (property "Reference" "Css" (at 46.99 88.265 0)
+    (property "Reference" "C7" (at 46.99 88.265 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 46.99 90.805 0)
@@ -1641,9 +1599,6 @@
     (pin "2" (uuid f51a937d-07e5-4914-9f50-4944cd3dc087))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Css") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C7") (unit 1)
         )
@@ -1654,7 +1609,7 @@
   (symbol (lib_id "Device:C") (at 259.08 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0ee043e-ebc0-4f22-ace2-07dc9cdf82f5)
-    (property "Reference" "Cout" (at 262.89 92.075 0)
+    (property "Reference" "C23" (at 262.89 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 262.89 94.615 0)
@@ -1670,9 +1625,6 @@
     (pin "2" (uuid bd92e931-0b4d-4d01-812e-b1fc2418d917))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C23") (unit 1)
         )
@@ -1683,7 +1635,7 @@
   (symbol (lib_id "Device:R_US") (at 81.28 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a90fc129-f4e5-49a4-be20-03da10509bb0)
-    (property "Reference" "Rmode" (at 83.82 104.775 0)
+    (property "Reference" "R14" (at 83.82 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 83.82 107.315 0)
@@ -1699,9 +1651,6 @@
     (pin "2" (uuid 15bf0016-67a8-4542-b74c-763259cf060e))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Rmode") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "R14") (unit 1)
         )
@@ -1712,7 +1661,7 @@
   (symbol (lib_id "Device:R_US") (at 165.1 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b22d616f-8f49-4a26-9a53-8dcfd57fbe2d)
-    (property "Reference" "Rdown" (at 167.64 103.505 0)
+    (property "Reference" "R21" (at 167.64 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 167.64 106.045 0)
@@ -1728,9 +1677,6 @@
     (pin "2" (uuid 7f30951b-189f-4ee7-a635-75ea0a3498fa))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Rdown") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "R21") (unit 1)
         )
@@ -1741,7 +1687,7 @@
   (symbol (lib_id "Device:C") (at 208.28 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c39f342a-209f-45fa-a938-c715543a097a)
-    (property "Reference" "Cout" (at 212.09 92.075 0)
+    (property "Reference" "C18" (at 212.09 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 212.09 94.615 0)
@@ -1757,9 +1703,6 @@
     (pin "2" (uuid fe2c18dc-1855-4bba-aafd-7de21927ecee))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C18") (unit 1)
         )
@@ -1770,7 +1713,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 24.13 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d320f019-c895-4fe9-b990-d6436abfa672)
-    (property "Reference" "Cin" (at 17.78 87.63 0)
+    (property "Reference" "C5" (at 17.78 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "82u" (at 16.51 90.17 0)
@@ -1786,9 +1729,6 @@
     (pin "2" (uuid 730bdcd7-7eb2-4e81-a700-ea4ad197b6a7))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cin") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C5") (unit 1)
         )
@@ -1864,7 +1804,7 @@
   (symbol (lib_id "Device:R_US") (at 62.23 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2302ba4-8332-434c-aa01-d94e346752b7)
-    (property "Reference" "Rmode" (at 64.77 107.315 0)
+    (property "Reference" "R12" (at 64.77 107.315 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "200k" (at 64.77 109.855 0)
@@ -1880,9 +1820,6 @@
     (pin "2" (uuid 719f4f82-ae7f-487c-823d-562433a0cddc))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Rmode") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "R12") (unit 1)
         )
@@ -1893,7 +1830,7 @@
   (symbol (lib_id "Device:R_US") (at 147.32 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2598617-99e0-4523-8c3d-ce6ab4cc570c)
-    (property "Reference" "Rdown" (at 148.59 78.74 90)
+    (property "Reference" "R19" (at 148.59 78.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k37" (at 149.86 81.28 90)
@@ -1909,9 +1846,6 @@
     (pin "2" (uuid 660b7bc3-2e80-4ddc-a41c-25b33c44c995))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Rdown") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "R19") (unit 1)
         )
@@ -1922,7 +1856,7 @@
   (symbol (lib_id "Device:R_US") (at 143.51 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e38489ca-3485-44e0-9347-59c8bd5842ca)
-    (property "Reference" "Rdown" (at 144.78 109.22 0)
+    (property "Reference" "R17" (at 144.78 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "210k" (at 144.78 111.76 0)
@@ -1938,9 +1872,6 @@
     (pin "2" (uuid 906638e8-9960-4075-81e8-f781d94b3dd5))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Rdown") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "R17") (unit 1)
         )
@@ -1951,7 +1882,7 @@
   (symbol (lib_id "Device:R_US") (at 62.23 99.06 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3914200-eeb2-4237-99da-099bf206e492)
-    (property "Reference" "Rmode" (at 64.77 98.425 0)
+    (property "Reference" "R11" (at 64.77 98.425 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "562k" (at 64.77 100.965 0)
@@ -1967,9 +1898,6 @@
     (pin "2" (uuid 9ce1b4f7-3748-4b1a-9d9c-d155301105e5))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Rmode") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "R11") (unit 1)
         )
@@ -1980,7 +1908,7 @@
   (symbol (lib_id "Device:L") (at 152.4 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e52a0b11-2f94-40d4-8326-eed00a16c930)
-    (property "Reference" "LSIC" (at 152.4 68.58 90)
+    (property "Reference" "L2" (at 152.4 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3u3" (at 152.4 71.12 90)
@@ -1996,9 +1924,6 @@
     (pin "2" (uuid 6f4fe8e5-fcae-47de-ac85-108bbde170dc))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "LSIC") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "L2") (unit 1)
         )
@@ -2009,7 +1934,7 @@
   (symbol (lib_id "Device:R_US") (at 165.1 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f41b5404-188b-487f-9169-7f7ef3550577)
-    (property "Reference" "Rup" (at 167.64 85.725 0)
+    (property "Reference" "R20" (at 167.64 85.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "140k" (at 167.64 88.265 0)
@@ -2025,9 +1950,6 @@
     (pin "2" (uuid b98a9c94-8ebe-4154-ae4f-746f8839ddac))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Rup") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "R20") (unit 1)
         )
@@ -2038,7 +1960,7 @@
   (symbol (lib_id "Device:C") (at 54.61 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f56ee5d1-8515-42e5-8f81-54136566d150)
-    (property "Reference" "Css" (at 58.42 88.265 0)
+    (property "Reference" "C8" (at 58.42 88.265 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 58.42 90.805 0)
@@ -2054,9 +1976,6 @@
     (pin "2" (uuid 2b13f00a-9a35-40f6-8126-a7d6a1f96177))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Css") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C8") (unit 1)
         )
@@ -2067,7 +1986,7 @@
   (symbol (lib_id "Device:C") (at 248.92 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f622a521-7abc-4a81-b96b-08ae7c876c64)
-    (property "Reference" "Cout" (at 252.73 92.075 0)
+    (property "Reference" "C22" (at 252.73 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 252.73 94.615 0)
@@ -2083,9 +2002,6 @@
     (pin "2" (uuid 45ae8ee1-65bf-49f8-8eac-35660461238a))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C22") (unit 1)
         )
@@ -2096,7 +2012,7 @@
   (symbol (lib_id "Device:C") (at 269.24 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f97888b2-05b3-49f6-8203-6cc86fb5a6a7)
-    (property "Reference" "Cout" (at 273.05 92.075 0)
+    (property "Reference" "C24" (at 273.05 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 273.05 94.615 0)
@@ -2112,9 +2028,6 @@
     (pin "2" (uuid eb61a786-81d4-44ec-ac68-73b6164f871e))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Cout") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C24") (unit 1)
         )
@@ -2125,7 +2038,7 @@
   (symbol (lib_id "Device:C") (at 76.2 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb6b7072-59ad-4084-835c-7b23fc87a3e6)
-    (property "Reference" "Css" (at 69.85 106.68 0)
+    (property "Reference" "C9" (at 69.85 106.68 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4u7" (at 69.85 109.22 0)
@@ -2141,9 +2054,6 @@
     (pin "2" (uuid bfaab8b0-4a5b-478a-8320-028843b0e139))
     (instances
       (project "crush-power-board"
-        (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f"
-          (reference "Css") (unit 1)
-        )
         (path "/530b9f5d-4c5f-47a4-a889-3cce870d311f/8fa80497-01bc-4617-b4f1-76ea41313a51"
           (reference "C9") (unit 1)
         )
